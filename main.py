@@ -12,7 +12,7 @@ def request(url, num):
     while i <= num:
         requests.get(url)
         print(i, end=", ",flush=True)
-        if i%50 == 0:
+        if i%30 == 0:
             print("")
         i = i + 1
 
